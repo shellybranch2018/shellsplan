@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { connect } from 'react-redux'
 import { createProject } from '/shellsplan/src/store/actions/projectActions'
 
-class CreateProject extends Component {
+class CreateProject extends React.Component {
     state = {
         title:'',
         content:''
